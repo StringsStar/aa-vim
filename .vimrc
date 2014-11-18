@@ -67,7 +67,7 @@ call vundle#rc()
 "vim里使用Man
 source $VIMRUNTIME/ftplugin/man.vim
 
-Bundle 'gmarik/vundle'
+"Bundle 'gmarik/vundle'
 
 Bundle 'The-NERD-tree'
   "nmap <leader>nt :NERDTree<cr>:set rnu<cr>
@@ -82,14 +82,14 @@ Bundle 'The-NERD-tree'
   let NERDTreeWinPos='left'
   let NERDTreeWinSize=25
 
-Bundle 'Valloric/youCompleteMe'
-	nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
-	nnoremap <leader>gt :YcmCompleter GoToDefinition<CR>
-	nnoremap <leader>gd :YcmCompleter GoToDeclaration<CR>
-  let g:ycm_key_list_select_completion = ['<Enter>', '<Down>']
-  let g:ycm_add_preview_to_completeopt = 0
-let g:ycm_global_ycm_extra_conf = '~/.ycm_cpp_conf.py'
-	let g:ycm_confirm_extra_conf = 0
+"Bundle 'Valloric/youCompleteMe'
+"	nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
+"	nnoremap <leader>gt :YcmCompleter GoToDefinition<CR>
+"	nnoremap <leader>gd :YcmCompleter GoToDeclaration<CR>
+"  let g:ycm_key_list_select_completion = ['<Enter>', '<Down>']
+"  let g:ycm_add_preview_to_completeopt = 0
+"let g:ycm_global_ycm_extra_conf = '~/.ycm_cpp_conf.py'
+"	let g:ycm_confirm_extra_conf = 0
 
 "Bundle 'Lokaltog/powerline'
   "python from powerline.vim import setup as powerline_setup
